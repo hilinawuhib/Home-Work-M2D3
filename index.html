@@ -17,12 +17,26 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Travel agency</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: darkblue;
+        }
+        .card-img-top{
+            width: 100%;
+            height: 200px ;
+        }
+        .deal-img{
+            
+        }
+
+    </style>
   </head>
   <body>
     <!-- start nav bar -->
     <!--     
     Ex 1) Implement a navigation bar. Connected to all the sections of the page to the menu items.  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#">
         <!-- Ex 2) Add a logo into the navigation bar (can be any image) -->
         <img src="airplane.png" width="30" height="30" alt=""
@@ -46,20 +60,21 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#textid">Deal of the week</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#textid2">Welcome Summer</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+            <a class="nav-link" href="#cardid">Deal of the Day</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Last-minute">Last Minute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testominal">Testimonial</a>
+          </li>
+          
         </ul>
       </div>
     </nav>
@@ -75,6 +90,7 @@
         </p>
       </div>
     </div>
+    <!-- Start of jumbtron -->
 
     <section id="textid ">
       <div class="container">
@@ -87,7 +103,7 @@
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
+              <img src="img (1).jfif" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -100,7 +116,7 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
+              <img src="/img (1).jpeg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -113,7 +129,7 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
+              <img src="/img (2).jfif" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -126,7 +142,7 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
+              <img src="/img (3).jfif" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -144,67 +160,67 @@
         <div class="container mb-5">
             <h3 > Welcome summer</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur a
-          explicabo corrupti ex ipsa ipsam unde sed quod, quas eum molestias
-          repellat, quam quisquam natus in qui corporis, aperiam debitis!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+       
         </p>
+
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
                     <div class="card" >
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="/img (4).jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Some quick example text .</p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
                       </div>
                 <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4 ">
                     <div class="card" >
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="/img (5).jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Some quick example text .</p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
                       </div>
                 <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
                     <div class="card" >
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="/img (1).jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Some quick example text </p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
                       </div>
                 <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
                     <div class="card" >
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="/img (1).jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Some quick example text </p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
                       </div>
                 <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
                     <div class="card" >
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="/img (5).jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Some quick example text </p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
                       </div>
                 <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
                     <div class="card" >
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="/img (2).jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Some quick example text </p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
@@ -232,7 +248,7 @@
             <h3>Deal of the day</h3>
             <div class="row">
                 <div class="col-8">
-                    <img style="width:100%;height:200px; object-fit:cover;" src="" alt="">
+                    <img class="deal-img" style="width:100%;height:200px; object-fit:cover;" src="/img (1).jpeg" alt="">
                 </div>
                
                <div class="col-4">
@@ -241,10 +257,84 @@
 
 </div>
 </div>
-
+ 
 
 </section>
-    <!-- Start of jumbtron -->
+<br>
+<section id="Last-minute">
+    <div class="container">
+        <h3 > Last Minute</h3>
+      
+        <div class="row mb-5">
+            <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
+                <div class="card" >
+                    <img src="img (1).jfif" class="card-img-top" alt="...">
+                  
+                  </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
+                    <div class="card" >
+                        <img src="img (1).jfif" class="card-img-top" alt="...">
+                     
+                      </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
+                        <div class="card" >
+                            <img src="img (1).jfif" class="card-img-top" alt="...">
+                        
+                          </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
+                            <div class="card" >
+                                <img src="img (1).jfif" class="card-img-top" alt="...">
+                             
+                              </div>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
+                                <div class="card" >
+                                    <img src="img (1).jfif" class="card-img-top" alt="...">
+                                   
+                                  </div>
+                                  </div>
+                                  <div class="col-sm-6 col-md-4 col-lg-2 mt-md-4">
+                                    <div class="card" >
+                                        <img src="img (1).jfif" class="card-img-top" alt="...">
+                                      
+                                      </div>
+                                      </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testominal">
+    <div class="container">
+        <h3 > Testemonial</h3>
+        <div class="row">
+            <div class="col-12">
+              <ul>
+                  <li>Opinin 1</li>
+                  <li>Opinin 1</li>
+                  <li>Opinin 1</li>
+                  <li>Opinin 1</li>
+              </ul>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+<br>
+
+<footer>
+    <div class="container">
+      
+        <button type="button" class="btn btn-primary">Contact us</button>
+    </div>
+</footer>
+
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
